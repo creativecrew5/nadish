@@ -1,0 +1,18 @@
+html, body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif
+} 
+
+header {
+    text-align: center;
+}
+
+div#googleLogin {
+    float: right;
+    margin: 10px;
+}
+
+.app__container {
+    width: 50%;
+    margin: auto;
+}

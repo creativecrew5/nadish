@@ -1,0 +1,32 @@
+.user__name {
+    text-transform: capitalize;
+    font-size: 110%;
+    float: right;
+    width: 70%;
+}
+
+.user__image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #aaa;
+}
+
+.user__email {
+    float: right;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.user__info {
+    background: #fafafa;
+    float: left;
+    padding: 20px;
+    width: 94%;
+}
+
+.container {
+    text-align: right;
+    float: left;
+    width: 100%;
+}

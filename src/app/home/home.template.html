@@ -1,0 +1,13 @@
+<div class="container"> 
+  <div id="googleLogin"></div>  
+  <br>
+  <div class="user__info" *ngIf="userProfile.name">
+    <div class="user__name">{{userProfile.name}}</div>
+    <div class="user__image"> 
+      <img [src]="userProfile.image"/>
+    </div>
+    <div class="user__email">
+     <a href="mailto:{{userProfile.email}}">{{userProfile.email}}</a>
+    </div>
+  </div>
+</div>
