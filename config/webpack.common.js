@@ -18,8 +18,9 @@ const HtmlElementsPlugin = require('./html-elements-plugin');
  * Webpack Constants
  */
 const METADATA = {
-  title: 'Angular2 Webpack Starter by @gdi2290 from @AngularClass',
+  title: 'Angular2 Google Auth',
   baseUrl: '/',
+  googleClientId:'366660555051-2j1psaps2nph96e2jvpr50q4j9vmo3bg.apps.googleusercontent.com',
   isDevServer: helpers.isWebpackDevServer()
 };
 
